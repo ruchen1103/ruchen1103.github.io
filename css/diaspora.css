@@ -1329,15 +1329,13 @@ h1.title {
 
 .content code,
 .content pre {
-  font-family: "Source Code Pro", monospace
-}
-.content pre ::-webkit-scrollbar {
-  display: none;/*隐藏滚动条*/
+  font-family: "Source Code Pro", monospace;
+  white-space:pre-wrap; word-break:break-all;overflow:hidden;
 }
 
 .content code {
-  background: #f0c9cf;
-  color: rgba(99, 99, 99, 0.07);
+  background: #e6d2d5;
+  color:black;
   padding: 1px 2px;
   border-radius: 2px;
 }
