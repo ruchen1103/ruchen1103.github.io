@@ -1331,6 +1331,9 @@ h1.title {
 .content pre {
   font-family: "Source Code Pro", monospace
 }
+.content pre ::-webkit-scrollbar {
+  display: none;/*隐藏滚动条*/
+}
 
 .content code {
   background: #f0c9cf;
