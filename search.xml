@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>myfirstblog</title>
-    <url>/2020/10/07/myfirstblog/</url>
-    <content><![CDATA[<pre><code>    欢迎来到我的博客，这是我的第一篇博客，也不知道要写些什么。
-    之后我会在这上面发一些学习笔记之类的。
-    233333，就这样吧。</code></pre>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>闲言闲语</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VSCode代码规范化</title>
     <url>/2020/10/16/VSCode%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E5%8C%96/</url>
     <content><![CDATA[<p>最近用vue-cli写代码的时候发现.vue文件之前设置的自动规范代码不能规范.vue文件。<br>这样写组件的时候HTML标签都不能对齐，特别难受，所以就去找了找相关的文章。<br>首先要用到的插件有：prettier， HTML Snippets。</p>
@@ -29,6 +15,20 @@
       </categories>
       <tags>
         <tag>问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>myfirstblog</title>
+    <url>/2020/10/07/myfirstblog/</url>
+    <content><![CDATA[<pre><code>    欢迎来到我的博客，这是我的第一篇博客，也不知道要写些什么。
+    之后我会在这上面发一些学习笔记之类的。
+    233333，就这样吧。</code></pre>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>闲言闲语</tag>
       </tags>
   </entry>
   <entry>
