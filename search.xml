@@ -111,30 +111,6 @@
       </tags>
   </entry>
   <entry>
-    <title>webpack遇到的问题</title>
-    <url>/2020/10/08/webpack%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p><img src="/source/_posts/img/2.png"></p>
-<pre><code>一、 问题描述
-    在配置webpack.config.js自动打包的时候,出现Error: Cannot find module &#39;@babel/core&#39;错误
-
-    最初以为是babel-core没有安装上。重装了好几遍babel-core还是不行。
-    百度之后发现是官方默认babel-loader | babel 对应的版本需要一致。</code></pre>
-<p><img src="/source/_posts/img/1.png"></p>
-<pre><code>二、解决方法
-    两种解决方案: 1. 回退低版本
-    npm install -D babel-loader@7 babel-core babel-preset-env
-    更新到最高版本:
-    npm install -D babel-loader @babel/core @babel/preset-env webpack</code></pre>
-]]></content>
-      <categories>
-        <category>学习</category>
-        <category>webpack</category>
-      </categories>
-      <tags>
-        <tag>问题解决</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一道闭包问题</title>
     <url>/2020/11/07/%E4%B8%80%E9%81%93%E9%97%AD%E5%8C%85%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>遇到的一道闭包问题，做错了，记录一下。<br>题目是：</p>
@@ -152,6 +128,30 @@
       </categories>
       <tags>
         <tag>问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>webpack遇到的问题</title>
+    <url>/2020/10/08/webpack%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p><img src="/public/img/textimg/2.png"></p>
+<pre><code>一、 问题描述
+    在配置webpack.config.js自动打包的时候,出现Error: Cannot find module &#39;@babel/core&#39;错误
+
+    最初以为是babel-core没有安装上。重装了好几遍babel-core还是不行。
+    百度之后发现是官方默认babel-loader | babel 对应的版本需要一致。</code></pre>
+<p><img src="/public/img/textimg/1.png"></p>
+<pre><code>二、解决方法
+    两种解决方案: 1. 回退低版本
+    npm install -D babel-loader@7 babel-core babel-preset-env
+    更新到最高版本:
+    npm install -D babel-loader @babel/core @babel/preset-env webpack</code></pre>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>webpack</category>
+      </categories>
+      <tags>
+        <tag>问题解决</tag>
       </tags>
   </entry>
 </search>
