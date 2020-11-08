@@ -113,13 +113,13 @@
   <entry>
     <title>webpack遇到的问题</title>
     <url>/2020/10/08/webpack%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/10/08/lNAwHid7kOnMFGY.png" alt="QQ图片20201008171052.png"></p>
+    <content><![CDATA[<p><img src="/source/_posts/img/2.png"></p>
 <pre><code>一、 问题描述
     在配置webpack.config.js自动打包的时候,出现Error: Cannot find module &#39;@babel/core&#39;错误
 
     最初以为是babel-core没有安装上。重装了好几遍babel-core还是不行。
     百度之后发现是官方默认babel-loader | babel 对应的版本需要一致。</code></pre>
-<p><img src="https://i.loli.net/2020/10/08/Wzuixy6qPeUp9hV.png" alt="QQ截图20201008173119.png"></p>
+<p><img src="/source/_posts/img/1.png"></p>
 <pre><code>二、解决方法
     两种解决方案: 1. 回退低版本
     npm install -D babel-loader@7 babel-core babel-preset-env
