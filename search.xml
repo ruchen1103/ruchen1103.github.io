@@ -18,6 +18,18 @@
       </tags>
   </entry>
   <entry>
+    <title>b站头部导航栏的布局</title>
+    <url>/2020/11/14/b%E7%AB%99%E5%A4%B4%E9%83%A8%E5%AF%BC%E8%88%AA%E6%A0%8F%E7%9A%84%E5%B8%83%E5%B1%80/</url>
+    <content><![CDATA[<p>在做b站头部导航栏时，中间的搜索框会随窗口的缩放而改变宽度。<br>第一想法就是圣杯布局，但是做完之后，因为两边的宽度是固定的，并且宽度较大，<br>所以在缩放时左右两边会下沉。<br>找相关的文章也还没有找到，所以试试看用JavaScript可以吗。<br>等解决了再把解决方法发出来。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>问题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>myfirstblog</title>
     <url>/2020/10/07/myfirstblog/</url>
     <content><![CDATA[<pre><code>    欢迎来到我的博客，这是我的第一篇博客，也不知道要写些什么。
